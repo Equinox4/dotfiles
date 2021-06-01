@@ -1,0 +1,14 @@
+include "/usr/local/share/nano/*.nanorc"
+
+set constantshow
+set emptyline
+set markmatch
+set multibuffer
+set nohelp
+set regexp
+set softwrap
+set stateflags
+set suspendable
+set tabsize 4
+set tabstospaces
+set zap
