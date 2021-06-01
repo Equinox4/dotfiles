@@ -1,0 +1,16 @@
+XTerm.vt100.faceName: DejaVu Mono:size=9:antialias=false
+xterm*renderFont: true
+XTerm*metaSendsEscape: true
+XTerm*locale: true
+
+XTerm*VT100.cutNewline: false
+XTerm*VT100.cutToBeginningOfLine: false
+XTerm*VT100.charClass: 33:48,35:48,37:48,42:48,45-47:48,64:48,95:48,126:48
+XTerm.vt100.saveLines: 4096
+
+XTerm*geometry: 150x40+0+0
+*customization: -color
+XTerm*termName:  xterm-256color
+
+xterm*background: rgb:15/15/15
+xterm*foreground: white
