@@ -1,3 +1,5 @@
+# Nano editor v5.8
+
 include "~/.config/nano/*.nanorc"
 
 set constantshow
