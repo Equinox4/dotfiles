@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+# Currently only works with Subversion, but will soon be updated for git.
+
 set -eu
 
 if [ $# -lt 1 ]; then
