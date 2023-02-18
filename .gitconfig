@@ -1,0 +1,24 @@
+[alias]
+    lg = log --pretty=format:\"%C(auto)%d%n%h %ai%x09%an%n%s%n\" --name-status --find-renames -1
+    mylog = log --pretty=format:\"%C(auto)%d%n%h %ai%x09%an%n%s%n\" --name-status --find-renames -1
+    mytag = tag --format='%(creatordate:short)%09%(refname:strip=2)'
+    undocommit = reset --soft HEAD~
+[apply]
+    whitespace = fix
+[commit]
+    gpgsign = true
+[core]
+    editor = nano
+    autocrlf = input
+    pager = less -x4
+[help]
+    autocorrect = 40
+[pager]
+    branch = false
+    log = false
+[pull]
+    rebase = false
+[push]
+    default = current
+[tag]
+    sort = creatordate
