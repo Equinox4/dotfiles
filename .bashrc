@@ -106,3 +106,7 @@ fi
 
 export PS1='\[\e[1;36m\]\u\[\e[0m\]@\[\e[1;32m\]\h\[\e[0m\]:\w\$\n\[\e[1;93m\]=>\[\e[0m\] '
 export PSQLRC=~/.config/psql/psqlrc
+
+if [ -z "$SSH_AUTH_SOCK" ]; then
+    eval $(ssh-agent);
+fi
