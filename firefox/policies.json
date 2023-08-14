@@ -151,6 +151,10 @@
         "Value": 0,
         "Status": "user"
       },
+      "permissions.default.shortcuts": {
+        "Value": 2,
+        "Status": "user"
+      },
       "toolkit.legacyUserProfileCustomizations.stylesheets": {
         "Value": true,
         "Status": "user"
