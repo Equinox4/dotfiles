@@ -1,0 +1,199 @@
+{
+  "policies": {
+    "AppAutoUpdate": false,
+    "Cookies": {
+      "Default": true,
+      "AcceptThirdParty": "from-visited",
+      "RejectTracker": true,
+      "Behavior": "reject-tracker-and-partition-foreign",
+      "BehaviorPrivateBrowsing": "reject-tracker-and-partition-foreign"
+    },
+    "DisabledCiphers": {
+      "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA": true,
+      "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA": true,
+      "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA": true,
+      "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA": true,
+      "TLS_DHE_RSA_WITH_AES_128_CBC_SHA": true,
+      "TLS_DHE_RSA_WITH_AES_256_CBC_SHA": true,
+      "TLS_RSA_WITH_AES_128_CBC_SHA": true,
+      "TLS_RSA_WITH_AES_256_CBC_SHA": true,
+      "TLS_RSA_WITH_3DES_EDE_CBC_SHA": true
+    },
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxStudies": true,
+    "DisablePocket": true,
+    "DisableFormHistory": true,
+    "DisableTelemetry": true,
+    "DisplayBookmarksToolbar": "newtab",
+    "DisplayMenuBar": "default-off",
+    "DNSOverHTTPS": {
+      "Enabled": true,
+      "ProviderURL": "https://dns0.eu",
+      "Locked": false
+    },
+    "DontCheckDefaultBrowser": true,
+    "EnableTrackingProtection": {
+      "Value": true,
+      "Locked": false,
+      "Cryptomining": true,
+      "Fingerprinting": true,
+      "EmailTracking": true
+    },
+    "EncryptedMediaExtensions": {
+      "Enabled": true,
+      "Locked": false
+    },
+    "ExtensionSettings": {
+      "uBlock0@raymondhill.net": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+      },
+      "uMatrix@raymondhill.net": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/umatrix/latest.xpi"
+      },
+      "@testpilot-containers": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/multi-account-containers/latest.xpi"
+      }
+    },
+    "ExtensionUpdate": true,
+    "FirefoxHome": {
+      "Search": true,
+      "TopSites": true,
+      "SponsoredTopSites": false,
+      "Highlights": false,
+      "Pocket": false,
+      "SponsoredPocket": false,
+      "Snippets": false,
+      "Locked": false
+    },
+    "HardwareAcceleration": true,
+    "Homepage": {
+      "Locked": false,
+      "StartPage": "homepage"
+    },
+    "InstallAddonsPermission": {
+      "Default": true
+    },
+    "NetworkPrediction": false,
+    "OfferToSaveLoginsDefault": false,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": "",
+    "PDFjs": {
+      "Enabled": true,
+      "EnablePermissions": false
+    },
+    "Permissions": {
+      "Camera": {
+        "BlockNewRequests": true,
+        "Locked": false
+      },
+      "Microphone": {
+        "BlockNewRequests": true,
+        "Locked": false
+      },
+      "Location": {
+        "BlockNewRequests": true,
+        "Locked": false
+      },
+      "Notifications": {
+        "BlockNewRequests": true,
+        "Locked": false
+      },
+      "Autoplay": {
+        "Default": "block-audio-video",
+        "Locked": false
+      }
+    },
+    "PictureInPicture": {
+      "Enabled": true,
+      "Locked": false
+    },
+    "PopupBlocking": {
+      "Default": true,
+      "Locked": false
+    },
+    "Preferences": {
+      "browser.aboutConfig.showWarning": {
+        "Value": false,
+        "Status": "user"
+      },
+      "browser.newtabpage.blocked": {
+        "Value": "{\"BRX66S9KVyZQ1z3AIk0A7w==\":1,\"4gPpjkxgZzXPVtuEoAL9Ig==\":1,\"OPjKsY2+nKYne5FGvFanPA==\":1,\"T9nJot5PurhJSy8n038xGA==\":1,\"26UbzFJ7qT9/4DhodHKA1Q==\":1,\"eV8/WsSLxHadrTL1gAxhug==\":1,\"QBqku6YNFwySc3XzlaVF9A==\":1}",
+        "Status": "user"
+      },
+      "browser.newtabpage.pinned": {
+        "Value": "[{\"url\":\"https://www.startpage.com\",\"label\":\"StartPage\",\"baseDomain\":\"startpage.com\"},{\"url\":\"https://www.deepl.com/fr/translator#fr/en/\",\"label\":\"Deepl\",\"baseDomain\":\"deepl.com\"},{\"url\":\"https://github.com/\",\"label\":\"GitHub\",\"baseDomain\":\"github.com\"},{\"url\":\"https://www.pappers.fr\",\"label\":\"Pappers\",\"baseDomain\":\"pappers.fr\"}]",
+        "Status": "user"
+      },
+      "browser.tabs.warnOnClose": {
+        "Value": true,
+        "Status": "user"
+      },
+      "extensions.formautofill.creditCards.enabled": {
+        "Value": false,
+        "Status": "user"
+      },
+      "dom.event.clipboardevents.enabled": {
+        "Value": false,
+        "Status": "user"
+      },
+      "dom.event.contextmenu.enabled": {
+        "Value": false,
+        "Status": "user"
+      },
+      "geo.enabled": {
+        "Value": false,
+        "Status": "user"
+      },
+      "layout.spellcheckDefault": {
+        "Value": 0,
+        "Status": "user"
+      },
+      "toolkit.legacyUserProfileCustomizations.stylesheets": {
+        "Value": true,
+        "Status": "user"
+      },
+      "widget.non-native-theme.scrollbar.style": {
+        "Value": 1,
+        "Status": "user"
+      }
+    },
+    "Proxy": {
+      "Mode": "system"
+    },
+    "RequestedLocales": "fr,fr-FR",
+    "SanitizeOnShutdown": {
+      "Cache": true,
+      "Cookies": true,
+      "Downloads": true,
+      "FormData": true,
+      "History": true,
+      "Sessions": true,
+      "SiteSettings": true,
+      "OfflineApps": true,
+      "Locked": false
+    },
+    "SearchBar": "separate",
+    "SearchEngines": {
+      "Default": "Google",
+      "PreventInstalls": false,
+      "Remove": ["Amazon.fr", "Bing", "eBay", "Qwant"]
+    },
+    "SearchSuggestEnabled": true,
+    "ShowHomeButton": true,
+    "SSLVersionMin": "tls1.2",
+    "StartDownloadsInTempDirectory": true,
+    "UserMessaging": {
+      "WhatsNew": false,
+      "ExtensionRecommendations": false,
+      "FeatureRecommendations": false,
+      "UrlbarInterventions": false,
+      "SkipOnboarding": true,
+      "MoreFromMozilla": false,
+      "Locked": false
+    },
+    "UseSystemPrintDialog": false
+  }
+}
