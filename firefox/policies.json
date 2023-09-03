@@ -116,52 +116,43 @@
     },
     "Preferences": {
       "browser.aboutConfig.showWarning": {
-        "Value": false,
-        "Status": "user"
+        "Value": false
       },
       "browser.newtabpage.blocked": {
-        "Value": "{\"BRX66S9KVyZQ1z3AIk0A7w==\":1,\"4gPpjkxgZzXPVtuEoAL9Ig==\":1,\"OPjKsY2+nKYne5FGvFanPA==\":1,\"T9nJot5PurhJSy8n038xGA==\":1,\"26UbzFJ7qT9/4DhodHKA1Q==\":1,\"eV8/WsSLxHadrTL1gAxhug==\":1,\"QBqku6YNFwySc3XzlaVF9A==\":1}",
-        "Status": "user"
+        "Value": "{\"BRX66S9KVyZQ1z3AIk0A7w==\":1,\"4gPpjkxgZzXPVtuEoAL9Ig==\":1,\"OPjKsY2+nKYne5FGvFanPA==\":1,\"T9nJot5PurhJSy8n038xGA==\":1,\"26UbzFJ7qT9/4DhodHKA1Q==\":1,\"eV8/WsSLxHadrTL1gAxhug==\":1,\"QBqku6YNFwySc3XzlaVF9A==\":1}"
       },
       "browser.newtabpage.pinned": {
-        "Value": "[{\"url\":\"https://www.startpage.com\",\"label\":\"StartPage\",\"baseDomain\":\"startpage.com\"},{\"url\":\"https://www.deepl.com/fr/translator#fr/en/\",\"label\":\"Deepl\",\"baseDomain\":\"deepl.com\"},{\"url\":\"https://github.com/\",\"label\":\"GitHub\",\"baseDomain\":\"github.com\"},{\"url\":\"https://www.pappers.fr\",\"label\":\"Pappers\",\"baseDomain\":\"pappers.fr\"}]",
-        "Status": "user"
+        "Value": "[{\"url\":\"https://www.startpage.com\",\"label\":\"StartPage\",\"baseDomain\":\"startpage.com\"},{\"url\":\"https://www.deepl.com/fr/translator#fr/en/\",\"label\":\"Deepl\",\"baseDomain\":\"deepl.com\"},{\"url\":\"https://github.com/\",\"label\":\"GitHub\",\"baseDomain\":\"github.com\"},{\"url\":\"https://www.pappers.fr\",\"label\":\"Pappers\",\"baseDomain\":\"pappers.fr\"}]"
       },
       "browser.tabs.warnOnClose": {
-        "Value": true,
-        "Status": "user"
+        "Value": true
       },
       "extensions.formautofill.creditCards.enabled": {
-        "Value": false,
-        "Status": "user"
+        "Value": false
       },
       "dom.event.clipboardevents.enabled": {
-        "Value": false,
-        "Status": "user"
+        "Value": false
       },
       "dom.event.contextmenu.enabled": {
-        "Value": false,
-        "Status": "user"
+        "Value": false
       },
       "geo.enabled": {
-        "Value": false,
-        "Status": "user"
+        "Value": false
       },
       "layout.spellcheckDefault": {
-        "Value": 0,
-        "Status": "user"
+        "Value": 0
+      },
+      "pdfjs.enableScripting": {
+        "Value": false
       },
       "permissions.default.shortcuts": {
-        "Value": 2,
-        "Status": "user"
+        "Value": 2
       },
       "toolkit.legacyUserProfileCustomizations.stylesheets": {
-        "Value": true,
-        "Status": "user"
+        "Value": true
       },
       "widget.non-native-theme.scrollbar.style": {
-        "Value": 1,
-        "Status": "user"
+        "Value": 1
       }
     },
     "Proxy": {
