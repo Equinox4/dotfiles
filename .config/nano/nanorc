@@ -1,14 +1,19 @@
-# Nano editor v5.8
+# Nano editor v7.1
 
+include "/usr/local/share/nano/*.nanorc"
 include "~/.config/nano/*.nanorc"
 
 set constantshow
 set emptyline
 set multibuffer
 set nohelp
+set nonewlines
+set positionlog
 set regexp
 set softwrap
 set stateflags
-set suspendable
 set tabsize 4
-set tabstospaces
+unset tabstospaces
+set unix
+set titlecolor bold,white,sea
+set statuscolor bold,white,sea
