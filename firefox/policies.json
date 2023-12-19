@@ -46,15 +46,18 @@
     "ExtensionSettings": {
       "uBlock0@raymondhill.net": {
         "installation_mode": "normal_installed",
-        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+        "default_area": "navbar"
       },
       "uMatrix@raymondhill.net": {
         "installation_mode": "normal_installed",
-        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/umatrix/latest.xpi"
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/umatrix/latest.xpi",
+        "default_area": "navbar"
       },
       "@testpilot-containers": {
         "installation_mode": "normal_installed",
-        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/multi-account-containers/latest.xpi"
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/multi-account-containers/latest.xpi",
+        "default_area": "navbar"
       }
     },
     "ExtensionUpdate": true,
@@ -66,6 +69,12 @@
       "Pocket": false,
       "SponsoredPocket": false,
       "Snippets": false,
+      "Locked": false
+    },
+    "FirefoxSuggest": {
+      "WebSuggestions": false,
+      "SponsoredSuggestions": false,
+      "ImproveSuggest": false,
       "Locked": false
     },
     "HardwareAcceleration": true,
