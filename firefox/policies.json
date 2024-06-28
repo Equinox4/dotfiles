@@ -1,5 +1,5 @@
 {
-	"policies": {
+"policies": {
 	"AppAutoUpdate": false,
 	"AutofillAddressEnabled": false,
 	"AutofillCreditCardEnabled": false,
@@ -207,5 +207,5 @@
 		"Locked": false
 	},
 	"UseSystemPrintDialog": false
-	}
+}
 }
