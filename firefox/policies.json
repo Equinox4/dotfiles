@@ -176,17 +176,7 @@
 		"Mode": "system"
 	},
 	"RequestedLocales": "fr,fr-FR",
-	"SanitizeOnShutdown": {
-		"Cache": true,
-		"Cookies": true,
-		"Downloads": true,
-		"FormData": true,
-		"History": true,
-		"Sessions": true,
-		"SiteSettings": true,
-		"OfflineApps": true,
-		"Locked": false
-	},
+	"SanitizeOnShutdown": true,
 	"SearchBar": "separate",
 	"SearchEngines": {
 		"Default": "Google",
@@ -198,7 +188,6 @@
 	"SSLVersionMin": "tls1.2",
 	"StartDownloadsInTempDirectory": true,
 	"UserMessaging": {
-		"WhatsNew": false,
 		"ExtensionRecommendations": false,
 		"FeatureRecommendations": false,
 		"UrlbarInterventions": false,
