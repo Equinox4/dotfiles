@@ -190,9 +190,10 @@
 	"UserMessaging": {
 		"ExtensionRecommendations": false,
 		"FeatureRecommendations": false,
-		"UrlbarInterventions": false,
-		"SkipOnboarding": true,
+		"FirefoxLabs": false,
 		"MoreFromMozilla": false,
+		"SkipOnboarding": true,
+		"UrlbarInterventions": false,
 		"Locked": false
 	},
 	"UseSystemPrintDialog": false
