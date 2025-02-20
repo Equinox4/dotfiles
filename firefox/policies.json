@@ -31,7 +31,7 @@
 	"DNSOverHTTPS": {
 		"Enabled": true,
 		"Fallback": true,
-		"ProviderURL": "https://dns0.eu",
+		"ProviderURL": "https://open.dns0.eu",
 		"Locked": false
 	},
 	"DontCheckDefaultBrowser": true,
